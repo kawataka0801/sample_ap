@@ -8,6 +8,10 @@ gem 'rails', '4.0.0'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails'
+  gem 'guard-rspec' #自動的にテスト実行してくれるもの
+  gem 'spork-rails' #テストの高速化
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :test do
